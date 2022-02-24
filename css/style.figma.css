@@ -1,0 +1,78 @@
+/* &display=swap */
+@import "null.css";
+/* ================================================================ */
+
+@font-face {
+   font-family: "CircularStd";
+   src: url('../fonts/CircularStd-Bold.woff2') format("woff2"), url('../fonts/CircularStd-Bold.woff') format("woff");
+   font-weight: 400;
+   font-style: normal;
+	font-display: swap; 
+}
+
+.header {
+		font-family: "CircularStd";
+		font-size: 65px; 
+		line-height: 82px;
+	   color: #313131;
+		text-align: center;
+		margin-top: 140px;
+		margin-bottom: 20px;
+}
+.text {
+	font-family: "CircularStd";
+	font-size: 20px; 
+	line-height: 25.3px;
+	color:#5F5F5F;
+	text-align: center;
+	margin: 0px auto;
+	max-width: 750px;
+}
+.header-2 {
+	font-family: "CircularStd";
+	font-size: 34px; 
+	line-height: 44.2px;
+	color: #313131;
+	margin-top: 224px;
+	margin-bottom: 20px;
+	margin-left: 207px;
+	
+}
+.text-2 {
+	font-family: "CircularStd";
+	font-size: 18px; 
+	line-height: 28px;
+	color: #5F5F5F;
+	width: 508px;
+	margin-left: 207px;
+	margin-bottom: 125px;
+}
+.header-3 {
+	font-family: "CircularStd";
+	font-size: 18px; 
+	font-weight: 700;
+	font-style: normal;
+	line-height: 23.4px;
+	color: #313131;
+	margin-bottom: 5px;
+	margin-left: 207px;
+}
+.text-3 {
+	font-family: "CircularStd";
+	font-size: 18px; 
+	font-weight: 400;
+	font-style: normal;
+	line-height: 22.77px;
+	color: #B8B8B8;
+	margin-left: 207px;
+}
+.image {
+	width: 468px;
+	height: 675px;
+	margin-top: 50px;
+	margin-left: 207px;
+}
+
+
+
+

@@ -1,0 +1,422 @@
+/* &display=swap */
+@import "null.css";
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ================================================================ */
+body {
+	font-size: 20px;
+}
+.block {
+ background-color: aqua;
+ padding: 15px;
+}
+.inline {
+  background-color: blanchedalmond;
+}
+.inline-block {
+	max-width: 200px; 
+}
+
+/*свойства оформлния блоков*/
+
+.block {
+	border-top: 10px solid black;
+	border-left: 50px solid #000;
+	border-right: 80px solid #000;
+	border-bottom: 100px solid #000;
+}
+.block-2 {
+	border-top: 10px dotted black;
+	border-left: 20px dotted #000;
+	border-right: 30px dotted #000;
+	border-bottom: 15px dotted #000;	
+}
+.block-3 {
+	border-top: 10px dashed black;
+	border-left: 20px  dashed #000;
+	border-right: 30px  dashed #000;
+	border-bottom: 4px  dashed #000;	
+}
+.block-3 {
+	border-top: 10px double red;
+	border-left: 20px  double  red;
+	border-right: 30px  double red;
+	border-bottom: 4px  double  red;
+}
+.block-4 {
+	border-top: 50px dashed transparent;
+	border-left: 50px  dashed transparent;
+	border-right: 50px  dashed transparent;
+	border-bottom: 50px  dashed transparent;	
+}
+.block-5 {
+	border: 5px solid fuchsia;	
+}
+.block-6 {
+	border: 5px solid yellow;	
+	border-top: 20px dotted greenyellow;
+}
+.block-7 {
+	border: 5px solid aqua;	
+	border-top: none;
+}
+.block-8 {
+	border: 5px solid rosybrown;	
+}
+.block-8:hover {
+	border: 5px solid khaki;	
+}
+.block-9 {
+	border: 5px dotted yellowgreen;	
+}
+.block-9:hover {
+	border: 5px solid lightcoral;	
+}
+.block-10 {
+	border: 5px dashed darkorange;	
+}
+.block-10:hover {
+	border: 5px solid silver;	
+}
+.block-11 {
+	border: 5px double darkmagenta;	
+}
+.block-11:hover {
+	border: 5px solid yellow;	
+}
+.block-12 {
+	border: 5px double red;	
+}
+.block-12:hover {
+	border: none;	
+}
+.block-13 {
+	border: 5px dotted skyblue;	
+}
+.block-13:hover {
+	border: none;	
+}
+.block-14 {
+	border: 5px dashed darkorange;	
+}
+.block-14:hover {
+	border: none;	
+}
+.block-15 {
+	border: 5px solid grey;	
+}
+.block-15:hover {
+	border: none;	
+}
+.block-16 {
+	padding: 20px;
+	border-radius: 10px 20px 30% 20px;	
+	background-color: aqua;
+}
+.block-17 {
+	padding: 20px;
+	border-radius: 19% 81% 23% 77% / 11% 89% 11% 89%;	
+	background-color: gold;
+}
+.block-18 {
+	padding: 20px;
+	border-radius: 20px;	
+	background-color: forestgreen;
+}
+.block-19 {
+	padding: 20px;
+	border-radius: 20px 0px;	
+	background-color: darkorchid;
+}
+.block-20 {
+	padding: 20px;
+	border-radius: 20px;	
+	background-color: darkred;
+	border: 10px solid black;
+}
+.block-21 {
+	padding: 20px;
+	border-radius: 20px;	
+	background-color: gold;
+	border: 10px dotted black;
+}
+.block-22 {
+	padding: 20px;
+	border-radius: 20px;	
+	background-color: darkorange;
+	border: 10px dashed black;
+}
+.block-23 {
+	padding: 20px;
+	border-radius: 20px;	
+	background-color: plum;
+	border: 10px double black;
+}
+.block-24 {
+	background-color: gold;
+	outline: 10px solid black;
+}
+.block-25 {
+	background-color: darkcyan;
+	outline: 10px dotted black;
+}
+.block-26 {
+	background-color: blue;
+	outline: 10px dashed black;
+}
+.block-27 {
+	background-color:chartreuse;
+	outline: 10px double black;
+}
+.block-28 {
+	background-color: gold;
+	outline: 10px solid green;
+	border-radius: 20px;
+}
+.block-29 {
+	background-color: burlywood;
+	outline: 10px dotted green;
+	border-radius: 20px;
+}
+.block-30 {
+	background-color: ivory;
+	outline: 10px dashed green;
+	border-radius: 20px;
+}
+.block-31 {
+	background-color: palevioletred;
+	outline: 10px double green;
+	border-radius: 20px;
+}
+.block-32 {
+	background-color: palevioletred;
+	width: 1500px;
+	margin: 0px 0px 30px 0px;
+	box-shadow: 10px 10px 10px 5px darkorange;
+}
+.block-33 {
+	background-color: khaki;
+	width: 1500px;
+	margin: 0px 0px 30px 0px;
+	box-shadow: 10px 10px 60px 5px darkorange;
+}
+.block-34 {
+	background-color: yellow;
+	width: 1500px;
+	margin: 0px 0px 30px 0px;
+	box-shadow: 10px 50px 10px 5px darkorange;
+}
+.block-35 {
+	background-color: aquamarine;
+	width: 1500px;
+	margin: 0px 0px 30px 0px;
+	box-shadow: 50px 10px 10px 5px darkorange;
+}
+.block-36 {
+	background-color: silver;
+	width: 1500px;
+	margin: 0px 0px 50px 0px;
+	box-shadow: 10px 10px 10px 50px darkorange;
+}
+.block-37 {
+	background-color: hotpink;
+	width: 1500px;
+	margin: 0px 0px 30px 50px;
+	box-shadow: -30px 0px 10px 10px darkorange;
+}
+.block-38 {
+	background-color: orangered;
+	width: 1500px;
+	margin: 0px 0px 30px 10px;
+	box-shadow: 10px -10px 10px 10px darkorange;
+}
+.block-39 {
+	background-color: khaki;
+	width: 1500px;
+	margin: 0px 0px 30px 10px;
+	box-shadow: 10px 10px 10px 10px darkorange, 20px 30px 40px 50px paleturquoise;
+}
+.block-40 {
+	background-color: wheat;
+	width: 1500px;
+	box-shadow: inset 0px 0px 10px 0px darkorange;
+}
+.block-40 {
+	background-color: wheat;
+	width: 1500px;
+	box-shadow: inset 0px 0px 10px 0px darkorange;
+} 
+.block-41 {
+	background-color: aquamarine;
+	width: 1500px;
+	box-shadow: inset 0px 0px 25px 0px darkorange, 0 0 50px 0 red;
+	border-radius: 30px;
+}
+.block-42 {
+	background-color: green;
+	width: 1500px;
+	opacity: 0;
+	border-radius: 30px;
+}
+.block-43 {
+	background-color: green;
+	width: 1500px;
+	opacity: 0.5;
+	border-radius: 30px;
+}
+.block-44 {
+	background-color: green;
+	width: 1500px;
+	opacity: 0.2;
+	border-radius: 30px;
+}
+.block-45 {
+	background-color: hotpink;
+	width: 1500px;
+   visibility: hidden;
+}
+.block-46 {
+	background-color: greenyellow;
+	width: 1500px;
+   visibility: visible;
+}
+.block-47 {
+	background-color: orange;
+	opacity: 0;
+}
+.block-48 {
+	background-color: fuchsia;
+	display: none;
+}
+.block-49 {
+	background-color: mediumturquoise;
+	visibility: hidden;
+}  
+.link {
+	color: blue;
+	font-size: 50px;
+	text-decoration: underline;
+}
+.link-2 {
+	color: rosybrown;
+	font-size: 50px;
+	border-bottom: 5px dotted black;
+}
+.link-3 {
+	color: magenta;
+	font-size: 50px;
+	border-bottom: 7px dashed brown;
+}
+.link-4 {
+	color: chartreuse;
+	font-size: 50px;
+	border-bottom: 10px solid violet;
+}
+.link-5 {
+	color: lightcoral;
+	font-size: 50px;
+	border-bottom: 10px double indigo;
+}
+.inline-2 {
+	border: 1px solid black;
+	line-height: 125%;
+ }
+ .inline-3 {
+	border-bottom: 2px dotted green;
+	line-height: 125%;
+ }
+ .inline-4 {
+	border-bottom: 2px double firebrick;
+	line-height: 125%;
+ }
+ .inline-5 {
+	border-bottom: 2px dashed red;
+	line-height: 125%;
+ }
+ .inline-6 {
+	text-decoration: underline;
+	line-height: 125%;
+ }
+ .inline-7 {
+	display: inline-block;
+	border-bottom: 5px dotted fuchsia;
+   line-height: 125%;
+}
+.inline-8 {
+	display: inline-block;
+	border-bottom: 5px solid gold;
+   line-height: 125%;
+}
+.inline-9 {
+	display: inline-block;
+	border-bottom: 5px dashed red;
+   line-height: 125%;
+}
+.inline-10 {
+	display: inline-block;
+	border-bottom: 5px double darkmagenta;
+   line-height: 125%;
+}
+.inline-11 {
+	background-color: royalblue;
+	border-radius: 20px;
+   line-height: 125%;
+}
+.inline-12 {
+	background-color: gold;
+	border-radius: 20px;
+   line-height: 125%;
+	outline: 10px solid yellowgreen;
+}
+.inline-13 {
+	background-color: gray;
+	border-radius: 20px;
+   line-height: 125%;
+	outline: 10px dotted yellowgreen;
+}
+.inline-14 {
+	background-color: lightpink;
+	border-radius: 20px;
+   line-height: 125%;
+	outline: 10px double yellowgreen;
+}
+.inline-15 {
+	background-color: indianred;
+	border-radius: 20px;
+   line-height: 125%;
+	outline: 10px dashed yellowgreen;
+}
+ .inline-block-2 {
+	border: 10px solid gold;
+	max-width: 200px; 
+}
+.inline-block-3 {
+	border: 10px dotted green;
+	max-width: 200px; 
+}
+.inline-block-4 {
+	border: 10px  dashed red;
+	max-width: 200px; 
+}
+.inline-block-5 {
+	border: 10px  double darkmagenta;
+	max-width: 200px; 
+}
+.inline-block-6 {
+	border-radius: 20px;
+	max-width: 200px; 
+}
+.inline-block-7 {
+	border-radius: 50%;
+	width: 200px; 
+	height: 200px;
+}
+.image {
+	border-radius: 50%;
+	width: 200px; 
+	height: 200px;
+	overflow: hidden;
+}
